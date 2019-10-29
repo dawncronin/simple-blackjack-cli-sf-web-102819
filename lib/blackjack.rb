@@ -53,7 +53,7 @@ def runner
   welcome
   total = initial_round
   while total < 22
-  total = subs
+  subs = total
   total = hit?(total)
   if total != subs
   display_card_total(total)
